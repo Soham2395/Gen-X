@@ -3,18 +3,15 @@
 let contentTitle;
 
 console.log(document.cookie);
+
 function dynamicClothingSection(ob) {
   let boxDiv = document.createElement("div");
   boxDiv.id = "box";
 
   let boxLink = document.createElement("a");
-  // boxLink.href = '#'
   boxLink.href = "/contentDetails.html?" + ob.id;
-  // console.log('link=>' + boxLink);
 
   let imgTag = document.createElement("img");
-  // imgTag.id = 'image1'
-  // imgTag.id = ob.photos
   imgTag.src = ob.preview;
 
   let detailsDiv = document.createElement("div");
@@ -29,7 +26,7 @@ function dynamicClothingSection(ob) {
   h4.appendChild(h4Text);
 
   let h2 = document.createElement("h2");
-  let h2Text = document.createTextNode("rs  " + ob.price);
+  let h2Text = document.createTextNode("rs " + ob.price);
   h2.appendChild(h2Text);
 
   boxDiv.appendChild(boxLink);
@@ -42,50 +39,28 @@ function dynamicClothingSection(ob) {
   return boxDiv;
 }
 
-//  TO SHOW THE RENDERED CODE IN CONSOLE
-// console.log(dynamicClothingSection());
-
-// console.log(boxDiv)
-
-let mainContainer = document.getElementById("mainContainer");
-let containerClothing = document.getElementById("containerClothing");
-let containerAccessories = document.getElementById("containerAccessories");
-// mainContainer.appendChild(dynamicClothingSection('hello world!!'))
-
-// BACKEND CALLING
-
-let httpRequest = new XMLHttpRequest();
-
-httpRequest.onreadystatechange = function() {
-  if (this.readyState === 4) {
-    if (this.status == 200) {
-      // console.log('call successful');
-      contentTitle = JSON.parse(this.responseText);
-      if (document.cookie.indexOf(",counter=") >= 0) {
-        var counter = document.cookie.split(",")[1].split("=")[1];
-        document.getElementById("badge").innerHTML = counter;
-      }
-      for (let i = 0; i < contentTitle.length; i++) {
-        if (contentTitle[i].isAccessory) {
-          console.log(contentTitle[i]);
-          containerAccessories.appendChild(
-            dynamicClothingSection(contentTitle[i])
-          );
-        } else {
-          console.log(contentTitle[i]);
-          containerClothing.appendChild(
-            dynamicClothingSection(contentTitle[i])
-          );
-        }
-      }
-    } else {
-      console.log("call failed!");
-    }
-  }
+// Hardcoded product description
+const productDescription = {
+  "id": "1",
+  "name": "Men Navy Blue Solid Sweatshirt",
+  "preview": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg",
+  "photos": [
+    "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg",
+    // Add other photo URLs
+  ],
+  "description": "Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem",
+  "size": [
+    1,
+    1,
+    0,
+    1,
+    0
+  ],
+  "isAccessory": false,
+  "brand": "United Colors of Benetton",
+  "price": 2599
 };
-httpRequest.open(
-  "GET",
-  "https://5d76bf96515d1a0014085cf9.mockapi.io/product",
-  true
-);
-httpRequest.send();
+
+// Add the hardcoded product to the containerClothing element
+let containerClothing = document.getElementById("containerClothing");
+containerClothing.appendChild(dynamicClothingSection(productDescription));
