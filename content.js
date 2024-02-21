@@ -39,13 +39,19 @@ function dynamicClothingSection(ob) {
   return boxDiv;
 }
 
+
+
+
+
+
+
 // Hardcoded product description
 const productDescription = {
   "id": "1",
   "name": "Men Navy Blue Solid Sweatshirt",
-  "preview": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg",
+  "preview": "img/logo.png",
   "photos": [
-    "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg",
+    "img/logo.png",
     // Add other photo URLs
   ],
   "description": "Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem",
@@ -56,11 +62,61 @@ const productDescription = {
     1,
     0
   ],
-  "isAccessory": false,
+  "isAccessory": true,
   "brand": "United Colors of Benetton",
   "price": 2599
 };
 
+const productDescription1 = {
+  "id": "2",
+  "name": "Men Black MAMGP T7 Sweat Sporty Jacket",
+  "preview": "img/logo.png",
+  "photos": [
+      "img/logo.png"
+  ],
+  "description": "Black solid sporty jacket, has a mock collar, 3 pockets, zip closure, long sleeves, straight hem, unlined lining",
+  "size": [
+      0,
+      0,
+      0,
+      1,
+      0
+  ],
+  "isAccessory": false,
+  "brand": "Puma",
+  "price": 7999
+};
+
+const productDescription2 = {
+  "id": "3",
+        "name": "Men Black Action Parkview Lifestyle Shoes",
+        "preview": "img/logo.png",
+        "photos": [
+            "img/logo.png"
+        ],
+        "description": "Flaunt an effortless look with this ultimate pair of black coloured formal shoes from the house of Hush Puppies. Let the sun go down for uncomfortable shoes, as you opt for this pair of formal shoes that is crafted using comfortable TPR (thermoplastic rubber) sole. Pair these formal shoes with a shirt and trousers to look absolutely handsome",
+        "size": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "isAccessory": false,
+        "brand": "Hush Puppies",
+        "price": 6999
+};
+
+
+
+
 // Add the hardcoded product to the containerClothing element
 let containerClothing = document.getElementById("containerClothing");
 containerClothing.appendChild(dynamicClothingSection(productDescription));
+containerClothing.appendChild(dynamicClothingSection(productDescription1));
+containerClothing.appendChild(dynamicClothingSection(productDescription2));
+containerClothing.appendChild(dynamicClothingSection(productDescription3));
+
+
+let containerAccessories = document.getElementById("containerAccessories");
+containerAccessories.appendChild(dynamicClothingSection(productDescription));
