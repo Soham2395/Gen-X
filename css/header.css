@@ -2,6 +2,10 @@ body
 {
     margin: 0;
 }
+.img{
+    /* height: 30px; */
+    width: 20%;
+}
 #badge
 {
     position: absolute;
@@ -90,12 +94,13 @@ body
     width: 35em;
     height: 3em;
     padding: 2px 50px;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(245, 245, 245);
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 #input::placeholder
 {
+    font-size: medium;
     font-weight: bold;
 }
 #input:focus
