@@ -1,7 +1,7 @@
 console.clear();
 
 let id = location.search.split('?')[1];
-console.log(id);
+
 
 if (document.cookie.indexOf(',counter=') >= 0) {
     let counter = document.cookie.split(',')[1].split('=')[1];
@@ -9,24 +9,24 @@ if (document.cookie.indexOf(',counter=') >= 0) {
 }
 
 // Hardcoded product details
-const hardcodedProduct = {
-    "id": "1",
-    "name": "Men Navy Blue Solid Sweatshirt",
-    "preview": "img/logo.png",
-    "photos": [
-        "img/logo.png",
-        "img/logo.png",
-        "img/logo.png",
-        "img/logo.png",
-        "img/logo.png"
+// const hardcodedProduct = {
+//     "id": "1",
+//     "name": "Men Navy Blue Solid Sweatshirt",
+//     "preview": "img/logo.png",
+//     "photos": [
+//         "img/logo.png",
+//         "img/logo.png",
+//         "img/logo.png",
+//         "img/logo.png",
+//         "img/logo.png"
         
-    ],
-    "description": "Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem",
-    "size": [1, 1, 0, 1, 0],
-    "isAccessory": false,
-    "brand": "United Colors of Benetton",
-    "price": 2599
-};
+//     ],
+//     "description": "Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem",
+//     "size": [1, 1, 0, 1, 0],
+//     "isAccessory": false,
+//     "brand": "United Colors of Benetton",
+//     "price": 2599
+// };
 
 function dynamicContentDetails(ob) {
     let mainContainer = document.createElement('div');
@@ -124,5 +124,114 @@ function dynamicContentDetails(ob) {
 }
 
 // Call dynamicContentDetails with the hardcoded product
-dynamicContentDetails(hardcodedProduct);
+//dynamicContentDetails(hardcodedProduct);
+
+function getProductDetailsById(id) {
+    // Simulated product data without using an API
+    const products = {
+        "1": {
+            "id": "1",
+            "name": "Men Navy Blue Solid Sweatshirt",
+            "preview": "img/logo.png",
+            "photos": ["img/logo.png", "img/logo.png", "img/logo.png", "img/logo.png", "img/logo.png"],
+            "description": "Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem",
+            "size": [1, 1, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "United Colors of Benetton",
+            "price": 2599
+        },
+        "2": {
+            "id": "2",
+            "name": "Listing Soon",
+            "preview": "img/logo.png",
+            "photos": [
+                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708559-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708542-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-3.jpg"
+            ],
+            "description": "Black solid sporty jacket, has a mock collar, 3 pockets, zip closure, long sleeves, straight hem, unlined lining",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Puma",
+            "price": 7999
+        },
+        // Add more products as needed
+    };
+
+    // Return product details based on the provided id
+    return products[id];
+}
+
+function dynamicContentDetails(id) {
+    // Fetch product details based on the provided id
+    const productDetails = getProductDetailsById(id);
+
+    // Ensure that productDetails is not undefined
+    if (!productDetails) {
+        console.error("Product details not found for id:", id);
+        return;
+    }
+
+    // Create and manipulate HTML elements to display product details
+    let mainContainer = document.createElement('div');
+    mainContainer.id = 'containerD';
+    document.getElementById('containerProduct').appendChild(mainContainer);
+
+    // Create an image element
+    let imgTag = document.createElement('img');
+    imgTag.id = 'imgDetails';
+    imgTag.src = productDetails.preview;
+    mainContainer.appendChild(imgTag);
+
+    // Create a div for product details
+    let productDetailsDiv = document.createElement('div');
+    productDetailsDiv.id = 'productDetails';
+
+    // Create and append elements for name, brand, price, and description
+    let h1 = document.createElement('h1');
+    let h1Text = document.createTextNode(productDetails.name);
+    h1.appendChild(h1Text);
+
+    let h4 = document.createElement('h4');
+    let h4Text = document.createTextNode(productDetails.brand);
+    h4.appendChild(h4Text);
+
+    let h3DetailsDiv = document.createElement('h3');
+    let h3DetailsText = document.createTextNode('Rs ' + productDetails.price);
+    h3DetailsDiv.appendChild(h3DetailsText);
+
+    let h3 = document.createElement('h3');
+    let h3Text = document.createTextNode('Description');
+    h3.appendChild(h3Text);
+
+    let para = document.createElement('p');
+    let paraText = document.createTextNode(productDetails.description);
+    para.appendChild(paraText);
+
+    // Append product details elements to productDetailsDiv
+    productDetailsDiv.appendChild(h1);
+    productDetailsDiv.appendChild(h4);
+    productDetailsDiv.appendChild(h3DetailsDiv);
+    productDetailsDiv.appendChild(h3);
+    productDetailsDiv.appendChild(para);
+
+    // Append productDetailsDiv to mainContainer
+    mainContainer.appendChild(productDetailsDiv);
+
+    // ... continue creating and appending other HTML elements based on productDetails
+
+    return mainContainer;
+}
+
+// Call dynamicContentDetails with the retrieved id
+if (id) {
+    console.log(id);
+    dynamicContentDetails(id);
+} else {
+    console.error("Unable to retrieve a valid id from the query parameter.");
+}
+
+
+
+
 
