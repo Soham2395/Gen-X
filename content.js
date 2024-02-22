@@ -188,7 +188,7 @@ const productDescription5 = {
         ],
         "isAccessory": false,
         "brand": "Gen-X",
-        "price": 9999
+        "price": 882
 };
 const productDescription6 = {
   "id": "7",
@@ -211,7 +211,8 @@ const productDescription6 = {
         ],
         "isAccessory": false,
         "brand": "Gen-X",
-        "price": 9999
+        "price": 3311
+        
 };
 
 
