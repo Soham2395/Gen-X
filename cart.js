@@ -78,14 +78,18 @@ totalDiv.appendChild(buttonDiv);
 let buttonTag = document.createElement('button');
 buttonDiv.appendChild(buttonTag);
 
-let buttonLink = document.createElement('a');
-buttonLink.href = '/orderPlaced.html?';
-buttonTag.appendChild(buttonLink);
+buttonTag.textContent = 'Place Order'; // Set the text content of the button
 
-buttonText = document.createTextNode('Place Order');
 buttonTag.onclick = function() {
     console.log("clicked");
+    // You can add more functionality here if needed
 };
+
+// If you want the button to act as a link
+buttonTag.addEventListener('click', function() {
+    window.location.href = '/orderPlaced.html'; // Redirect to the specified URL
+});
+
 
 
 
