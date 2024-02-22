@@ -6,11 +6,13 @@ body
     /* height: 30px; */
     width: 65%;
 }
+
 #badge
 {
     position: absolute;
     background-color: rgb(255, 30, 30);
     color: white;
+    
     border-radius: 50%;
     padding: 5px 8px;
     font-size: 14px;
@@ -62,7 +64,9 @@ body
     text-decoration: none;
     color: rgb(29, 29, 29);
 }
-
+#clothing{
+    cursor: pointer;
+}
 .search
 {
     padding: 14px;
@@ -75,13 +79,14 @@ body
 
 .addedToCart
 {
-    font-size: 1.5em;
+    font-size: 2.0em;
     margin-right: 25px;
 }
 #user
 {
     display: flex;
     /* float: right; */
+    justify-content: space-between;
     align-items: center;
 }
 

@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="css/header.css">
     <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Adding a margin to compensate for scrolling above the target */
+        :target {
+            scroll-margin-top: 70px;
+        }
+        
+       
+    </style>
 </head>
 <body>
     
@@ -22,8 +34,8 @@
                 <div id="shopName"><a href="index.html"><img src="img/Main.png" class="img"></a></div>
                     <!-- COLLCETIONS ON WEBSITE -->
                     <div id="collection">
-                        <div id="clothing"><a href="clothing.html"> GADGETS </a></div>
-                        <div id="accessories"><a href="accessories.html"> ACCESSORIES </a></div>
+                        <div id="clothing"><a href="index.html#3"> GADGETS </a></div>
+                        <div id="accessories"><a href="index.html#h1"> ACCESSORIES </a></div>
                     </div>
                     <!-- SEARCH SECTION -->
                     <div id="search">
@@ -32,7 +44,7 @@
                     </div>
                     <!-- USER SECTION (CART AND USER ICON) -->
                     <div id="user">
-                        <a href="cart.html"> <i class="fas fa-shopping-cart addedToCart"><div id="badge"> 0 </div></i></a>
+                        <a href="cart.html" id="ca"> <i class="fas fa-shopping-cart addedToCart"><div id="badge"> 0 </div></i></a>
                         <a href="#"> <i class="fas fa-user-circle userIcon"></i> </a>
                     </div>
             </div>
