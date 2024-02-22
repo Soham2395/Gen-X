@@ -95,7 +95,21 @@ const products = [{
     "name": "Men Navy Blue Solid Sweatshirt",
     "preview": "img/logo.png",
     "price": 2599
-}];
+},
+{
+    "id": "2",
+    "name": "Men Navy Blue Solid Sweatshirt",
+    "preview": "img/logo.png",
+    "price": 2599
+},
+{
+    "id": "3",
+    "name": "Men Navy Blue Solid Sweatshirt",
+    "preview": "img/logo.png",
+    "price": 2599
+}
+
+];
 
 // Initialize totalAmount
 let totalAmount = 0;

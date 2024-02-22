@@ -155,6 +155,21 @@ function getProductDetailsById(id) {
             "brand": "Puma",
             "price": 7999
         },
+        "3": {
+            "id": "3",
+            "name": "Listing Soon",
+            "preview": "img/logo.png",
+            "photos": [
+                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708559-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708542-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-3.jpg"
+            ],
+            "description": "Black solid sporty jacket, has a mock collar, 3 pockets, zip closure, long sleeves, straight hem, unlined lining",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Puma",
+            "price": 7999
+        },
         // Add more products as needed
     };
 
