@@ -143,12 +143,12 @@ function getProductDetailsById(id) {
         "2": {
             "id": "2",
             "name": "Q-Powerbank",
-            "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL._AC_SL1500_.jpg",
+            "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
             "photos": [
-                "https://m.media-amazon.com/images/I/61MaSVeJaYL._AC_SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/71hkAmh-QHL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
+                "https://m.media-amazon.com/images/I/71hkAmh-QHL.AC_SL1500.jpg",
                 "https://m.media-amazon.com/images/I/61-WO962L0L.SX679.jpg",
-                "https://m.media-amazon.com/images/I/71Kf-XVZF7L._AC_SL1500_.jpg"
+                "https://m.media-amazon.com/images/I/71Kf-XVZF7L.AC_SL1500.jpg"
             ],
             "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
             "size": [0, 0, 0, 1, 0],
@@ -159,12 +159,12 @@ function getProductDetailsById(id) {
         "3": {
             "id": "3",
             "name": "Gen-X SwiftSync Earbuds",
-            "preview": "https://m.media-amazon.com/images/I/51dfG2mEEbL._AC_SL1500_.jpg",
+            "preview": "https://m.media-amazon.com/images/I/51dfG2mEEbL.AC_SL1500.jpg",
             "photos": [
-                "https://m.media-amazon.com/images/I/51dfG2mEEbL._AC_SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/51tYwWn3wSL._AC_SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/41CijCww8KL._AC_SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/51SjEQ8wj4L._AC_SL1500_.jpg"
+                "https://m.media-amazon.com/images/I/51dfG2mEEbL.AC_SL1500.jpg",
+                "https://m.media-amazon.com/images/I/51tYwWn3wSL.AC_SL1500.jpg",
+                "https://m.media-amazon.com/images/I/41CijCww8KL.AC_SL1500.jpg",
+                "https://m.media-amazon.com/images/I/51SjEQ8wj4L.AC_SL1500.jpg"
             ],
             "description": "Experience ultra-low latency audio with seamless connectivity for the next generation",
             "size": [0, 0, 0, 1, 0],
@@ -189,33 +189,48 @@ function getProductDetailsById(id) {
         },
         "5": {
             "id": "5",
-            "name": "GenVoice Home Hub",
-            "preview": "img/logo.png",
+            "name": "X-ConnectLTE",
+            "preview": "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
             "photos": [
-                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg",
-                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708559-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-2.jpg",
-                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708542-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-3.jpg"
+                "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
+                "https://m.media-amazon.com/images/I/71GD8iJkxdL.SX679.jpg",
+                "https://m.media-amazon.com/images/I/61OlNNLretL.SX679.jpg"
             ],
-            "description": "Elevate your home with effortless voice-controlled intelligence",
+            "description": "Introducing the 'GenX ConnectLTE' smartwatch - your ultimate companion for seamless connectivity, advanced tracking, and unparalleled convenience on the go",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X",
-            "price": 7999
+            "price": 864
         },
 "6": {
             "id": "6",
-            "name": "GenVoice Home Hub",
-            "preview": "img/logo.png",
+            "name": "SonicWave Over-Ear Headphones",
+            "preview": "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-black-front-view.png?v=1698221486&width=990",
             "photos": [
-                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg",
-                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708559-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-2.jpg",
-                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708542-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-3.jpg"
+                "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-black-front-view.png?v=1698221486&width=990",
+                "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-obsidian-black-hero-view.png?v=1698221486&width=990",
+                "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-obsidian-black-mode-view.png?v=1698221486&width=990"
             ],
-            "description": "Elevate your home with effortless voice-controlled intelligence",
+            "description": "Immerse yourself in premium sound quality with the SonicWave Over-Ear Headphones by GenX.",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X",
-            "price": 7999
+            "price": 882
+        },
+"7": {
+            "id": "7",
+            "name": "X-360 SoundSphere",
+            "preview": "https://m.media-amazon.com/images/I/610Jx43eHaL.SX679.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/610Jx43eHaL.SX679.jpg",
+                "https://m.media-amazon.com/images/I/71dunCe1hBL.SX679.jpg",
+                "https://m.media-amazon.com/images/I/81ljEt+Hz2L.SX679.jpg"
+            ],
+            "description": "Introducing the 'GenX360 SoundSphere' : Immerse yourself in unparalleled audio bliss with our cutting-edge speaker, delivering immersive 360-degree surround sound for an unforgettable listening experience.",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X",
+            "price": 3311
         },
         // Add more products as needed
     };
@@ -250,6 +265,7 @@ function dynamicContentDetails(id) {
     mainContainer.appendChild(imgTag);
     imgTag.style.width = '100%';
     imgTag.style.height = 'auto';
+    // imgTag.style.marginLeft
     //
     // imageSectionDiv.appendChild(imgTag)
     //
@@ -258,6 +274,7 @@ function dynamicContentDetails(id) {
     // Create a div for product details
     let productDetailsDiv = document.createElement('div');
     productDetailsDiv.id = 'productDetails';
+    productDetailsDiv.style.paddingLeft = '20px';
 
     // Create and append elements for name, brand, price, and description
     let h1 = document.createElement('h1');

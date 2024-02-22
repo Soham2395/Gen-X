@@ -146,8 +146,8 @@ const productDescription3 = {
 
 const productDescription4 = {
   "id": "5",
-        "name": "Listing Soon",
-        "preview": "img/logo.png",
+        "name": "X-ConnectLTE",
+        "preview": "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
         "photos": [
             "img/logo.jpg",
             // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673889-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-2.jpg",
@@ -165,12 +165,35 @@ const productDescription4 = {
         ],
         "isAccessory": false,
         "brand": "Gen-X",
-        "price": 9999
+        "price": 864
 };
 const productDescription5 = {
   "id": "6",
-        "name": "Listing Soon",
-        "preview": "img/logo.png",
+        "name": "SonicWave Over-Ear",
+        "preview": "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-black-front-view.png?v=1698221486&width=990",
+        "photos": [
+            "img/logo.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673889-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-2.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673866-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-3.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673837-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-4.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673814-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-5.jpg"
+        ],
+        "description": "GenX Smart Tech brand",
+        "size": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "isAccessory": false,
+        "brand": "Gen-X",
+        "price": 9999
+};
+const productDescription6 = {
+  "id": "7",
+        "name": "X-360 SoundSphere",
+        "preview": "https://m.media-amazon.com/images/I/610Jx43eHaL.SX679.jpg",
         "photos": [
             "img/logo.jpg",
             // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673889-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-2.jpg",
@@ -203,3 +226,4 @@ containerClothing.appendChild(dynamicClothingSection(productDescription3));
 let containerAccessories = document.getElementById("containerAccessories");
 containerAccessories.appendChild(dynamicClothingSection(productDescription4));
 containerAccessories.appendChild(dynamicClothingSection(productDescription5));
+containerAccessories.appendChild(dynamicClothingSection(productDescription6));
