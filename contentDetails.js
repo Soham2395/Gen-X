@@ -177,11 +177,18 @@ function dynamicContentDetails(id) {
     mainContainer.id = 'containerD';
     document.getElementById('containerProduct').appendChild(mainContainer);
 
+    let imageSectionDiv = document.createElement('div')
+    imageSectionDiv.id = 'imageSection'
+
     // Create an image element
     let imgTag = document.createElement('img');
     imgTag.id = 'imgDetails';
     imgTag.src = productDetails.preview;
     mainContainer.appendChild(imgTag);
+    //
+    // imageSectionDiv.appendChild(imgTag)
+    //
+
 
     // Create a div for product details
     let productDetailsDiv = document.createElement('div');
@@ -196,6 +203,14 @@ function dynamicContentDetails(id) {
     let h4Text = document.createTextNode(productDetails.brand);
     h4.appendChild(h4Text);
 
+
+    //
+    let detailsDiv = document.createElement('div')
+    detailsDiv.id = 'details'
+
+    //
+
+
     let h3DetailsDiv = document.createElement('h3');
     let h3DetailsText = document.createTextNode('Rs ' + productDetails.price);
     h3DetailsDiv.appendChild(h3DetailsText);
@@ -208,16 +223,83 @@ function dynamicContentDetails(id) {
     let paraText = document.createTextNode(productDetails.description);
     para.appendChild(paraText);
 
+    ////
+
+    let productPreviewDiv = document.createElement('div')
+    productPreviewDiv.id = 'productPreview'
+
+    let h3ProductPreviewDiv = document.createElement('h3')
+    let h3ProductPreviewText = document.createTextNode('Product Preview')
+    h3ProductPreviewDiv.appendChild(h3ProductPreviewText)
+    productPreviewDiv.appendChild(h3ProductPreviewDiv)
+
+
+    let i;
+    for(i=0; i<productDetails.photos.length; i++)
+    {
+        let imgTagProductPreviewDiv = document.createElement('img')
+        imgTagProductPreviewDiv.id = 'previewImg'
+        imgTagProductPreviewDiv.src = productDetails.photos[i]
+        imgTagProductPreviewDiv.onclick = function(event)
+        {
+            console.log("clicked" + this.src)
+            imgTag.src = productDetails.photos[i]
+            document.getElementById("imgDetails").src = this.src 
+            
+        }
+        productPreviewDiv.appendChild(imgTagProductPreviewDiv)
+    }
+
+    let buttonDiv = document.createElement('div')
+    buttonDiv.id = 'button'
+
+    let buttonTag = document.createElement('button')
+    buttonDiv.appendChild(buttonTag)
+
+
+    buttonText = document.createTextNode('Add to Cart')
+    buttonTag.onclick  =   function()
+    {
+        let order = id+" "
+        let counter = 1
+        if(document.cookie.indexOf(',counter=')>=0)
+        {
+            order = id + " " + document.cookie.split(',')[0].split('=')[1]
+            counter = Number(document.cookie.split(',')[1].split('=')[1]) + 1
+        }
+        document.cookie = "orderId=" + order + ",counter=" + counter
+        document.getElementById("badge").innerHTML = counter
+        console.log(document.cookie)
+    }
+    buttonTag.appendChild(buttonText)
+
+
+
+
+
+    /////
+
     // Append product details elements to productDetailsDiv
     productDetailsDiv.appendChild(h1);
     productDetailsDiv.appendChild(h4);
-    productDetailsDiv.appendChild(h3DetailsDiv);
-    productDetailsDiv.appendChild(h3);
-    productDetailsDiv.appendChild(para);
+    // productDetailsDiv.appendChild(h3DetailsDiv);
+    productDetailsDiv.appendChild(detailsDiv);
+    // productDetailsDiv.appendChild(h3);
+    // productDetailsDiv.appendChild(para);
+    detailsDiv.appendChild(h3DetailsDiv);
+    detailsDiv.appendChild(h3);
+    detailsDiv.appendChild(para);
+
+    productDetailsDiv.appendChild(productPreviewDiv)
 
     // Append productDetailsDiv to mainContainer
     mainContainer.appendChild(productDetailsDiv);
 
+    ///
+    productDetailsDiv.appendChild(buttonDiv)
+
+
+    ////
     // ... continue creating and appending other HTML elements based on productDetails
 
     return mainContainer;
