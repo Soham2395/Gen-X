@@ -3,6 +3,14 @@ body
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+
+.productImage {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: 50%; /* Allows the height to adjust automatically to maintain aspect ratio */
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
+    display: block; /* Ensures proper spacing and alignment */
+}
+
 h1
 {
     width: 90%;

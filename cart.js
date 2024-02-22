@@ -30,17 +30,20 @@ function dynamicCartSection(ob, itemCounter) {
     boxh4.appendChild(h4Text);
     boxDiv.appendChild(boxh4);
 
-    // Create remove button
-    // let removeButton = document.createElement('button');
-    // removeButton.textContent = 'Remove';
-    // removeButton.addEventListener('click', function() {
-    //     // Remove the item from the cart
-    //     boxDiv.parentNode.removeChild(boxDiv);
-    //     // Update total amount after removing item
-    //     totalAmount -= (ob.price * itemCounter);
-    //     document.getElementById('toth4').textContent = 'Amount: Rs ' + totalAmount;
-    // });
-    // boxDiv.appendChild(removeButton);
+//     let removeButton = document.createElement('button');
+// removeButton.textContent = 'Remove';
+
+// removeButton.addEventListener('click', function() {
+//     // Remove the item from the cart
+//     boxDiv.parentNode.removeChild(boxDiv);
+
+//     // Update total amount after removing item
+//     totalAmount -= (ob.price * itemCounter);
+//     document.getElementById('toth4').textContent = 'Amount: Rs ' + totalAmount;
+// });
+
+// boxDiv.appendChild(removeButton);
+
 
     cartContainer.appendChild(boxContainerDiv);
     cartContainer.appendChild(totalContainerDiv);
@@ -97,21 +100,34 @@ buttonTag.addEventListener('click', function() {
 const products = [{
     "id": "1",
     "name": "Men Navy Blue Solid Sweatshirt",
-    "preview": "img/logo.png",
+    "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
     "price": 2599
 },
 {
     "id": "2",
-    "name": "Men Navy Blue Solid Sweatshirt",
-    "preview": "img/logo.png",
+    "name": "Q-Powerbank",
+    "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL._AC_SL1500_.jpg",
     "price": 2599
 },
 {
     "id": "3",
+    "name": "Gen-X SwiftSync Earbuds",
+    "preview": "https://m.media-amazon.com/images/I/51dfG2mEEbL._AC_SL1500_.jpg",
+    "price": 2599
+},
+{
+    "id": "4",
+    "name": "GenVoice Home Hub",
+    "preview": "https://m.media-amazon.com/images/I/81lGxS2ZisL.SX569.jpg",
+    "price": 2599
+},
+{
+    "id": "5",
     "name": "Men Navy Blue Solid Sweatshirt",
     "preview": "img/logo.png",
     "price": 2599
-}
+},
+
 
 ];
 

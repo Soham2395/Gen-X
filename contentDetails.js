@@ -12,10 +12,10 @@ if (document.cookie.indexOf(',counter=') >= 0) {
 // const hardcodedProduct = {
 //     "id": "1",
 //     "name": "Men Navy Blue Solid Sweatshirt",
-//     "preview": "img/logo.png",
+//     "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
 //     "photos": [
-//         "img/logo.png",
-//         "img/logo.png",
+//         "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
+//         "https://m.media-amazon.com/images/I/61edfxEMM5L.SX679.jpg",
 //         "img/logo.png",
 //         "img/logo.png",
 //         "img/logo.png"
@@ -131,47 +131,95 @@ function getProductDetailsById(id) {
     const products = {
         "1": {
             "id": "1",
-            "name": "Men Navy Blue Solid Sweatshirt",
-            "preview": "img/logo.png",
-            "photos": ["img/logo.png", "img/logo.png", "img/logo.png", "img/logo.png", "img/logo.png"],
-            "description": "Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem",
+            "name": "GenX TimeMaster Classic",
+            "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
+            "photos": ["https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg", "https://m.media-amazon.com/images/I/610rvcXNg3L.SX679.jpg", "https://m.media-amazon.com/images/I/61yjr+vhbaL.SX679.jpg", "https://m.media-amazon.com/images/I/61mkpp+F95L.SX679.jpg"],
+            "description": "Experience timeless elegance and cutting-edge technology with the Gen-X TimeMaster Classic - your stylish companion for staying connected and enhancing your lifestyle",
             "size": [1, 1, 0, 1, 0],
             "isAccessory": false,
-            "brand": "United Colors of Benetton",
-            "price": 2599
+            "brand": "Gen-X",
+            "price":819 
         },
         "2": {
             "id": "2",
-            "name": "Listing Soon",
-            "preview": "img/logo.png",
+            "name": "Q-Powerbank",
+            "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL._AC_SL1500_.jpg",
             "photos": [
-                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg",
-                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708559-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-2.jpg",
-                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708542-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-3.jpg"
+                "https://m.media-amazon.com/images/I/61MaSVeJaYL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71hkAmh-QHL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/61-WO962L0L.SX679.jpg",
+                "https://m.media-amazon.com/images/I/71Kf-XVZF7L._AC_SL1500_.jpg"
             ],
-            "description": "Black solid sporty jacket, has a mock collar, 3 pockets, zip closure, long sleeves, straight hem, unlined lining",
+            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Puma",
-            "price": 7999
+            "brand": "Gen-X",
+            "price": 683
         },
         "3": {
             "id": "3",
-            "name": "Listing Soon",
+            "name": "Gen-X SwiftSync Earbuds",
+            "preview": "https://m.media-amazon.com/images/I/51dfG2mEEbL._AC_SL1500_.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/51dfG2mEEbL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/51tYwWn3wSL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/41CijCww8KL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/51SjEQ8wj4L._AC_SL1500_.jpg"
+            ],
+            "description": "Experience ultra-low latency audio with seamless connectivity for the next generation",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X",
+            "price": 1045
+        },
+"4": {
+            "id": "4",
+            "name": "GenVoice Home Hub",
+            "preview": "https://m.media-amazon.com/images/I/81lGxS2ZisL.SX569.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/81lGxS2ZisL.SX569.jpg",
+                "https://m.media-amazon.com/images/I/61lPcAKY+vL.SX569.jpg",
+                "https://m.media-amazon.com/images/I/71AbQ3Hf75L.SX569.jpg"
+            ],
+            "description": "Elevate your home with effortless voice-controlled intelligence",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X",
+            "price": 2586
+        },
+        "5": {
+            "id": "5",
+            "name": "GenVoice Home Hub",
             "preview": "img/logo.png",
             "photos": [
                 "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg",
                 "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708559-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-2.jpg",
                 "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708542-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-3.jpg"
             ],
-            "description": "Black solid sporty jacket, has a mock collar, 3 pockets, zip closure, long sleeves, straight hem, unlined lining",
+            "description": "Elevate your home with effortless voice-controlled intelligence",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Puma",
+            "brand": "Gen-X",
+            "price": 7999
+        },
+"6": {
+            "id": "6",
+            "name": "GenVoice Home Hub",
+            "preview": "img/logo.png",
+            "photos": [
+                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg",
+                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708559-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-2.jpg",
+                "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708542-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-3.jpg"
+            ],
+            "description": "Elevate your home with effortless voice-controlled intelligence",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X",
             "price": 7999
         },
         // Add more products as needed
     };
+    
 
     // Return product details based on the provided id
     return products[id];
@@ -200,6 +248,8 @@ function dynamicContentDetails(id) {
     imgTag.id = 'imgDetails';
     imgTag.src = productDetails.preview;
     mainContainer.appendChild(imgTag);
+    imgTag.style.width = '100%';
+    imgTag.style.height = 'auto';
     //
     // imageSectionDiv.appendChild(imgTag)
     //
@@ -312,6 +362,7 @@ function dynamicContentDetails(id) {
 
     ///
     productDetailsDiv.appendChild(buttonDiv)
+    
 
 
     ////
@@ -320,6 +371,8 @@ function dynamicContentDetails(id) {
     return mainContainer;
 }
 
+
+
 // Call dynamicContentDetails with the retrieved id
 if (id) {
     console.log(id);
@@ -327,8 +380,3 @@ if (id) {
 } else {
     console.error("Unable to retrieve a valid id from the query parameter.");
 }
-
-
-
-
-

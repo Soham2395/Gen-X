@@ -1,5 +1,7 @@
 // console.clear();
 
+
+
 let contentTitle;
 
 console.log(document.cookie);
@@ -13,6 +15,8 @@ function dynamicClothingSection(ob) {
 
   let imgTag = document.createElement("img");
   imgTag.src = ob.preview;
+  imgTag.className= 'productImage'
+ 
 
   let detailsDiv = document.createElement("div");
   detailsDiv.id = "details";
@@ -48,29 +52,31 @@ function dynamicClothingSection(ob) {
 // Hardcoded product description
 const productDescription = {
   "id": "1",
-  "name": "Listing soon",
-  "preview": "img/logo.png",
+  "name": "GenX TimeMaster Classic",
+  "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
   "photos": [
     "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg",
     // Add other photo URLs
   ],
   "description": "Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem",
   "size": [
+    
     1,
     1,
-    0,
     1,
-    0
+    1,
+    1
   ],
   "isAccessory": true,
-  "brand": "United Colors of Benetton",
+  "brand": "Gen-X",
   "price": 2599
 };
 
+
 const productDescription1 = {
   "id": "2",
-  "name": "Listing Soon",
-  "preview": "img/logo.png",
+  "name": "Q-Powerbank",
+  "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL._AC_SL1500_.jpg",
   "photos": [
       "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg",
       "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708559-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-2.jpg",
@@ -85,14 +91,14 @@ const productDescription1 = {
       0
   ],
   "isAccessory": false,
-  "brand": "Puma",
+  "brand": "Gen-X",
   "price": 7999
 };
 
 const productDescription2 = {
   "id": "3",
-        "name": "Listing Soon",
-        "preview": "img/logo.png",
+        "name": "Gen-X SwiftSync Earbuds",
+        "preview": "https://m.media-amazon.com/images/I/51dfG2mEEbL._AC_SL1500_.jpg",
         "photos": [
             "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg",
             "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/329c61f4-640b-44b6-98a6-8fa1fe0540191537343756244-2.jpg",
@@ -116,8 +122,8 @@ const productDescription2 = {
 
 const productDescription3 = {
   "id": "4",
-        "name": "Listing Soon",
-        "preview": "img/logo.png",
+        "name": "GenVoice Home Hub",
+        "preview": "https://m.media-amazon.com/images/I/81lGxS2ZisL.SX569.jpg",
         "photos": [
             "img/logo.jpg",
             // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673889-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-2.jpg",
@@ -139,7 +145,7 @@ const productDescription3 = {
 };
 
 const productDescription4 = {
-  "id": "4",
+  "id": "5",
         "name": "Listing Soon",
         "preview": "img/logo.png",
         "photos": [
@@ -162,7 +168,7 @@ const productDescription4 = {
         "price": 9999
 };
 const productDescription5 = {
-  "id": "4",
+  "id": "6",
         "name": "Listing Soon",
         "preview": "img/logo.png",
         "photos": [
@@ -195,5 +201,5 @@ containerClothing.appendChild(dynamicClothingSection(productDescription3));
 
 
 let containerAccessories = document.getElementById("containerAccessories");
-containerAccessories.appendChild(dynamicClothingSection(productDescription1));
-containerAccessories.appendChild(dynamicClothingSection(productDescription2));
+containerAccessories.appendChild(dynamicClothingSection(productDescription4));
+containerAccessories.appendChild(dynamicClothingSection(productDescription5));
