@@ -83,6 +83,12 @@ buttonDiv.appendChild(buttonTag);
 
 buttonTag.textContent = 'Place Order'; // Set the text content of the button
 
+// Apply styles to the button
+buttonTag.style.color = 'white'; // Set text color to white
+buttonTag.style.fontWeight = 'bold'; // Set font weight to bold
+buttonTag.style.fontSize = 'calc(16px + 1px)'; // Increase font size by 2 pixels
+
+
 buttonTag.onclick = function() {
     console.log("clicked");
     // You can add more functionality here if needed
