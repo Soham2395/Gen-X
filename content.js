@@ -52,7 +52,7 @@ function dynamicClothingSection(ob) {
 // Hardcoded product description
 const productDescription = {
   "id": "1",
-  "name": "GenX TimeMaster Classic",
+  "name": "X-Play wear",
   "preview": "https://m.media-amazon.com/images/I/71-D0k+XUsL._SL1500_.jpg",
   "photos": [
     "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg",
@@ -97,7 +97,7 @@ const productDescription1 = {
 
 const productDescription2 = {
   "id": "3",
-        "name": "Gen-X SwiftSync Earbuds",
+        "name": "GenX Sports-SG",
         "preview":"https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
         "photos": [
             "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg",
@@ -122,7 +122,7 @@ const productDescription2 = {
 
 const productDescription3 = {
   "id": "4",
-        "name": "GenVoice Home Hub",
+        "name": "Gen-Multi Hub",
         "preview": "https://m.media-amazon.com/images/I/61wCSfVLG9L._AC_SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
@@ -146,7 +146,7 @@ const productDescription3 = {
 
 const productDescription4 = {
   "id": "5",
-        "name": "X-ConnectLTE",
+        "name": "X-BlueConnect",
         "preview": "https://m.media-amazon.com/images/I/8100GPA0v0L._AC_SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
@@ -169,7 +169,7 @@ const productDescription4 = {
 };
 const productDescription5 = {
   "id": "6",
-        "name": "SonicWave Over-Ear",
+        "name": "X-SmartHealth",
         "preview": "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
         "photos": [
             "img/logo.jpg",
@@ -315,7 +315,7 @@ const productDescription10 = {
 const productDescription11 = {
   "id": "12",
         "name": "X-360 SoundSphere",
-        "preview":"https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
+        "preview":"https://m.media-amazon.com/images/I/81lRYveurDL._AC_SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
             // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673889-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-2.jpg",
