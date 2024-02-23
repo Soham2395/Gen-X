@@ -350,7 +350,7 @@ function getProductDetailsById(id) {
             "photos": [
                 "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/91An8O3810L._AC_SL1500_.jpg,
-                "https://m.media-amazon.com/images/I/81n+9rRBFvL._AC_SL1500_.jpg,
+                "https://m.media-amazon.com/images/I/81n+9rRBFvL._AC_SL1500_.jpg"
         
             ],
             "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
