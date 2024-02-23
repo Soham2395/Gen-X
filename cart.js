@@ -195,7 +195,7 @@ const products = [{
     "name": "Gen-X RetroHit Speaker",
     "preview": "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
     "price": 3311
-},
+}
                   
 ];
 
