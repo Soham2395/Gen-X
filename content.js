@@ -68,7 +68,7 @@ const productDescription = {
     1
   ],
   "isAccessory": true,
-  "brand": "Gen-X",
+  "brand": "Gen-X | Gaming Headset",
   "price": 819
 };
 
@@ -91,7 +91,7 @@ const productDescription1 = {
       0
   ],
   "isAccessory": false,
-  "brand": "Gen-X",
+  "brand": "Gen-X | wireless PowerBank",
   "price": 683
 };
 
@@ -116,7 +116,7 @@ const productDescription2 = {
             1
         ],
         "isAccessory": false,
-        "brand": "GenX",
+        "brand": "Gen-X | Sports Watch",
         "price": 1045
 };
 
@@ -140,7 +140,7 @@ const productDescription3 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
+        "brand": "Gen-X | Multiport Powerbank",
         "price": 2586
 };
 
@@ -164,7 +164,7 @@ const productDescription4 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
+        "brand": "Gen-X | portable bluethtooth speaker",
         "price": 864
 };
 const productDescription5 = {
@@ -187,12 +187,12 @@ const productDescription5 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
-        "price": 882
+        "brand": "Gen-X | Health care Smartwatch",
+        "price": 864
 };
 const productDescription6 = {
   "id": "7",
-        "name": "X-360 SoundSphere",
+        "name": "X-Travelfold",
         "preview":"https://m.media-amazon.com/images/I/61yOkOzxZ0L._AC_SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
@@ -210,14 +210,14 @@ const productDescription6 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
+        "brand": "Gen-X | Foldable Travel Headset",
         "price": 3311
         
 };
 
 const productDescription7 = {
   "id": "8",
-        "name": "X-360 SoundSphere",
+        "name": "GenX's Bass-Enhanced Headphones",
         "preview":"https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-black-front-view.png?v=1698221486&width=990",
         "photos": [
             "img/logo.jpg",
@@ -235,14 +235,14 @@ const productDescription7 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
-        "price": 3311
+        "brand": "Gen-X | Bass Enhanced Earphones",
+        "price": 882
         
 };
 
 const productDescription8 = {
   "id": "9",
-        "name": "X-360 SoundSphere",
+        "name": "GenX TurboCharge Powerbank",
         "preview":"https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
         "photos": [
             "img/logo.jpg",
@@ -260,13 +260,13 @@ const productDescription8 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
-        "price": 3311
+        "brand": "Gen-X | Fast Charging Powerbank",
+        "price": 683
         
 };
 const productDescription9 = {
   "id": "10",
-        "name": "X-360 SoundSphere",
+        "name": "X-float SoundSphere",
         "preview":"https://m.media-amazon.com/images/I/81zqOR1a01L._AC_SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
@@ -284,13 +284,13 @@ const productDescription9 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
-        "price": 3311
+        "brand": "Gen-X | Floating Bluetooth Speaker",
+        "price": 683
         
 };
 const productDescription10 = {
   "id": "11",
-        "name": "X-360 SoundSphere",
+        "name": "GenX ThunderBolt Cable",",
         "preview": "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
@@ -308,13 +308,13 @@ const productDescription10 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
-        "price": 3311
+        "brand": "Gen-X | Lightning Cable",
+        "price": 683
         
 };
 const productDescription11 = {
   "id": "12",
-        "name": "X-360 SoundSphere",
+        "name": "waterproof Speaker",
         "preview":"https://m.media-amazon.com/images/I/81lRYveurDL._AC_SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
@@ -332,14 +332,14 @@ const productDescription11 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
-        "price": 3311
+        "brand": "Gen-X | Waterproof Speaker",
+        "price": 683
         
 };
 
 const productDescription12 = {
   "id": "13",
-        "name": "X-360 SoundSphere",
+        "name": "X SlimChargee",
         "preview":"https://m.media-amazon.com/images/I/61vfkQDpRiL._AC_SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
@@ -357,14 +357,14 @@ const productDescription12 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
-        "price": 3311
+        "brand": "Gen-X | Slim Powerbank",
+        "price": 683
         
 };
 
 const productDescription13 = {
   "id": "14",
-        "name": "X-360 SoundSphere",
+        "name": "GenX AquaPro DiveMaster",
         "preview":"https://m.media-amazon.com/images/I/71eFD3KyuXL._AC_SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
@@ -382,14 +382,14 @@ const productDescription13 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
-        "price": 3311
+        "brand": "Gen-X | Diving SmartWatch",
+        "price": 683
         
 };
 
 const productDescription14 = {
   "id": "15",
-        "name": "X-360 SoundSphere",
+        "name": "Gen-X RetroHit Speaker",
         "preview":"https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
@@ -407,8 +407,8 @@ const productDescription14 = {
             1
         ],
         "isAccessory": false,
-        "brand": "Gen-X",
-        "price": 3311
+        "brand": "Gen-X | Wooden Speaker",
+        "price": 683
         
 };
 
