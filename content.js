@@ -290,7 +290,7 @@ const productDescription9 = {
 };
 const productDescription10 = {
   "id": "11",
-        "name": "GenX ThunderBolt Cable",",
+        "name": "GenX ThunderBolt Cable",
         "preview": "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
         "photos": [
             "img/logo.jpg",
