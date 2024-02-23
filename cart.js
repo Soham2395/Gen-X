@@ -105,49 +105,97 @@ buttonTag.addEventListener('click', function() {
 // Hardcoded product data
 const products = [{
     "id": "1",
-    "name": "Men Navy Blue Solid Sweatshirt",
-    "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
+    "name": "X-Play wear",
+    "preview": "https://m.media-amazon.com/images/I/71-D0k+XUsL._SL1500_.jpg",
     "price": 819
 },
 {
     "id": "2",
     "name": "Q-Powerbank",
-    "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL._AC_SL1500_.jpg",
+    "preview": "https://m.media-amazon.com/images/I/515Y+-BrJJL._AC_SL1500_.jpg",
     "price": 683
 },
 {
     "id": "3",
-    "name": "Gen-X SwiftSync Earbuds",
-    "preview": "https://m.media-amazon.com/images/I/51dfG2mEEbL._AC_SL1500_.jpg",
-    "price": 1045
+    "name": "GenX Sports-SG",
+    "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
+    "price": 819
 },
 {
     "id": "4",
-    "name": "GenVoice Home Hub",
-    "preview": "https://m.media-amazon.com/images/I/81lGxS2ZisL.SX569.jpg",
+    "name": "Gen-Multi Hub",
+    "preview": "https://m.media-amazon.com/images/I/61wCSfVLG9L._AC_SL1500_.jpg",
     "price": 2586
 },
 {
     "id": "5",
-    "name": "X-ConnectLTE",
-    "preview": "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
+    "name": "X-BlueConnect",
+    "preview":  "https://m.media-amazon.com/images/I/8100GPA0v0L._AC_SL1500_.jpg",
     "price": 864
 },
 {
     "id": "6",
-    "name": "SonicWave Over-Ear Headphones",
+    "name": "X-SmartHealths",
+    "preview": "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
+    "price": 864
+},
+{
+    "id": "7",
+    "name": "X-Travelfold",
+    "preview":"https://m.media-amazon.com/images/I/61yOkOzxZ0L._AC_SL1500_.jpg",
+    "price": 3311
+},
+{
+    "id": "8",
+    "name": "GenX's Bass-Enhanced Headphones",
     "preview": "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-black-front-view.png?v=1698221486&width=990",
     "price": 882
 },
 {
-    "id": "7",
-    "name": "X-360 SoundSphere",
-    "preview": "https://m.media-amazon.com/images/I/610Jx43eHaL.SX679.jpg",
+    "id": "9",
+    "name": "GenX TurboCharge Powerbank",
+    "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
+    "price": 683
+},
+{
+    "id": "10",
+    "name": "F-Powerbank",
+    "preview": "https://m.media-amazon.com/images/I/81zqOR1a01L._AC_SL1500_.jpg",
+    "price": 683
+},
+{
+    "id": "11",
+    "name": "GenX ThunderBolt Cable",
+    "preview": "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
+    "price": 683
+},
+{
+    "id": "12",
+    "name": "waterproof Speaker",
+    "preview": "https://m.media-amazon.com/images/I/81lRYveurDL._AC_SL1500_.jpg",
+    "price": 683
+},
+                  
+{
+    "id": "13",
+    "name": "X SlimCharge",
+    "preview": "https://m.media-amazon.com/images/I/61vfkQDpRiL._AC_SL1500_.jpg",
+    "price": 683
+},
+                  
+{
+    "id": "14",
+    "name": "GenX AquaPro DiveMaste",
+    "preview":  "https://m.media-amazon.com/images/I/71eFD3KyuXL._AC_SL1500_.jpg",
+    "price": 683
+},
+                  
+];{
+    "id": "15",
+    "name": "Gen-X RetroHit Speaker",
+    "preview": "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
     "price": 3311
 },
-
-
-];
 
 // Initialize totalAmount
 let totalAmount = 0;
