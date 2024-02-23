@@ -53,7 +53,7 @@ function dynamicClothingSection(ob) {
 const productDescription = {
   "id": "1",
   "name": "GenX TimeMaster Classic",
-  "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
+  "preview": "https://m.media-amazon.com/images/I/71-D0k+XUsL._SL1500_.jpg",
   "photos": [
     "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg",
     // Add other photo URLs
