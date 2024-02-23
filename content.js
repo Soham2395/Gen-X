@@ -69,7 +69,7 @@ const productDescription = {
   ],
   "isAccessory": true,
   "brand": "Gen-X",
-  "price": 2599
+  "price": 819
 };
 
 
@@ -92,7 +92,7 @@ const productDescription1 = {
   ],
   "isAccessory": false,
   "brand": "Gen-X",
-  "price": 7999
+  "price": 683
 };
 
 const productDescription2 = {
@@ -117,7 +117,7 @@ const productDescription2 = {
         ],
         "isAccessory": false,
         "brand": "GenX",
-        "price": 6999
+        "price": 1045
 };
 
 const productDescription3 = {
@@ -141,7 +141,7 @@ const productDescription3 = {
         ],
         "isAccessory": false,
         "brand": "Gen-X",
-        "price": 9999
+        "price": 2586
 };
 
 const productDescription4 = {
