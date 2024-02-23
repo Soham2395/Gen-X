@@ -426,7 +426,7 @@ containerClothing.appendChild(dynamicClothingSection(productDescription6));
 containerClothing.appendChild(dynamicClothingSection(productDescription7));
 containerClothing.appendChild(dynamicClothingSection(productDescription8));
 containerClothing.appendChild(dynamicClothingSection(productDescription9));
-containerClothing.appendChild(dynamicClothingSection(productDescription10));
+// containerClothing.appendChild(dynamicClothingSection(productDescription10));
 // containerClothing.appendChild(dynamicClothingSection(productDescription11));
 // containerClothing.appendChild(dynamicClothingSection(productDescription12));
 // containerClothing.appendChild(dynamicClothingSection(productDescription13));
@@ -434,6 +434,7 @@ containerClothing.appendChild(dynamicClothingSection(productDescription10));
 // containerClothing.appendChild(dynamicClothingSection(productDescription15));
 
 let containerAccessories = document.getElementById("containerAccessories");
+containerAccessories.appendChild(dynamicClothingSection(productDescription10));
 containerAccessories.appendChild(dynamicClothingSection(productDescription11));
 containerAccessories.appendChild(dynamicClothingSection(productDescription12));
 containerAccessories.appendChild(dynamicClothingSection(productDescription13));
