@@ -349,7 +349,7 @@ function getProductDetailsById(id) {
             "preview": "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
             "photos": [
                 "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/91An8O3810L._AC_SL1500_.jpg,
+                "https://m.media-amazon.com/images/I/91An8O3810L._AC_SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/81n+9rRBFvL._AC_SL1500_.jpg"
         
             ],
