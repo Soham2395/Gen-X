@@ -263,18 +263,16 @@ function getProductDetailsById(id) {
         "10": {
             "id": "10",
             "name": "F-Powerbank",
-            "preview": "https://m.media-amazon.com/images/I/71zppvL8ulL._SL1399_.jpg",
+            "preview": "https://m.media-amazon.com/images/I/81zqOR1a01L._AC_SL1500_.jpg",
             "photos": [
-                "https://m.media-amazon.com/images/I/71zppvL8ulL._SL1399_.jpg",
-                "https://m.media-amazon.com/images/I/71ksxIimk-L._SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/71NkWUl6P1L._SL1469_.jpg",
-                "https://m.media-amazon.com/images/I/71iaR8da7rL._SL1469_.jpg",
-                "https://m.media-amazon.com/images/I/71k7O6vqkIL._SL1469_.jpg"
+                "https://m.media-amazon.com/images/I/81zqOR1a01L._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/81pv93iN6nL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/81C-53UyHYL._AC_SL1500_.jpg"
             ],
             "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Gen-X | Mutli Port cable",
+            "brand": "Gen-X | Floating Bluetooth Speaker",
             "price": 683
         },
 
@@ -298,21 +296,70 @@ function getProductDetailsById(id) {
 
         "12": {
             "id": "12",
-            "name": "F-Powerbank",
-            "preview": "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
+            "name": "waterproof Speaker",
+            "preview": "https://m.media-amazon.com/images/I/81lRYveurDL._AC_SL1500_.jpg",
             "photos": [
-                "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/71oRRkpO33L._SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/71kHKErv04L._SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/71mHx5ivnKL._SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/616zYJUQVTL._SL1500_.jpg"
+                "https://m.media-amazon.com/images/I/81lRYveurDL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71hCJP5QewL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/815ryMmqeBL._AC_SL1500_.jpg",
             ],
             "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Gen-X | Fast Charging Powerbank",
+            "brand": "Gen-X | Waterproof Speaker",
             "price": 683
         },
+"13": {
+            "id": "13",
+            "name": "F- slim Powerbank",
+            "preview": "https://m.media-amazon.com/images/I/61vfkQDpRiL._AC_SL1500_.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/61vfkQDpRiL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71VYXK-Dx2L._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/81roj19LbdL._AC_SL1500_.jpg",
+        
+            ],
+            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X | Slim Powerbank",
+            "price": 683
+        },
+
+        "14": {
+            "id": "14",
+            "name":" diving watch",
+            "preview": "https://m.media-amazon.com/images/I/71eFD3KyuXL._AC_SL1500_.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/71eFD3KyuXL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/81yEQT0bUaL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71H5i-wxXzL._AC_SL1500_.jpg",
+        
+            ],
+            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X | Diving SmartWatch",
+            "price": 683
+        },
+
+        "15": {
+            "id": "15",
+            "name":" Wooden Speaker",
+            "preview": "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/91An8O3810L._AC_SL1500_.jpg,
+                "https://m.media-amazon.com/images/I/81n+9rRBFvL._AC_SL1500_.jpg,
+        
+            ],
+            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X | Wooden Speaker",
+            "price": 683
+        },
+        
 
         // Add more products as needed
     };
