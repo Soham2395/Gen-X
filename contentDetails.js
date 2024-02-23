@@ -134,7 +134,7 @@ function getProductDetailsById(id) {
             "name": "X-Play wear",
             "preview": "https://m.media-amazon.com/images/I/71-D0k+XUsL._SL1500_.jpg",
             "photos": ["https://m.media-amazon.com/images/I/71-D0k+XUsL._SL1500_.jpg", "https://m.media-amazon.com/images/I/71Qhb5KGtEL._SL1500_.jpg", "https://m.media-amazon.com/images/I/71PtFgU9zwL._SL1500_.jpg", "https://m.media-amazon.com/images/I/71rAEvNBX3L._SL1500_.jpg","https://m.media-amazon.com/images/I/6118xBVFzcL._SL1500_.jpg"],
-            "description": "Experience timeless elegance and cutting-edge technology with the Gen-X TimeMaster Classic - your stylish companion for staying connected and enhancing your lifestyle",
+            "description": "Immerse yourself in unparalleled gaming audio with GenX's X-Playwear gaming headset.",
             "size": [1, 1, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Gaming Headset",
@@ -150,7 +150,7 @@ function getProductDetailsById(id) {
                 "https://m.media-amazon.com/images/I/61Be6tnweTL._AC_SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/61CnGCR3WWL._AC_SL1500_.jpg"
             ],
-            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "description": " Unleash the freedom of wireless charging on the go",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | wireless PowerBank",
@@ -161,7 +161,7 @@ function getProductDetailsById(id) {
             "name": "GenX Sports-SG",
             "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
             "photos": ["https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg", "https://m.media-amazon.com/images/I/610rvcXNg3L.SX679.jpg", "https://m.media-amazon.com/images/I/61yjr+vhbaL.SX679.jpg", "https://m.media-amazon.com/images/I/61mkpp+F95L.SX679.jpg"],
-            "description": "Experience timeless elegance and cutting-edge technology with the Gen-X TimeMaster Classic - your stylish companion for staying connected and enhancing your lifestyle",
+            "description": "Your ultimate companion for fitness tracking and performance optimization on the go",
             "size": [1, 1, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Sports Watch",
@@ -177,7 +177,7 @@ function getProductDetailsById(id) {
                 "https://m.media-amazon.com/images/I/71BQb61GmNL._AC_SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/710aRgLcPML._AC_SL1500_.jpg"
             ],
-            "description": "Elevate your home with effortless voice-controlled intelligence",
+            "description": "Your all-in-one solution for on-the-go power with multiple ports",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Multiport Powerbank",
@@ -192,7 +192,7 @@ function getProductDetailsById(id) {
                 "https://m.media-amazon.com/images/I/71V8YBjvqaL._AC_SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/71pipdbYJyL._AC_SL1500_.jpg"
             ],
-            "description": "Introducing the 'GenX ConnectLTE' smartwatch - your ultimate companion for seamless connectivity, advanced tracking, and unparalleled convenience on the go",
+            "description": "Compact, powerful, and perfect for on-the-go music enthusiasts.",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | portable bluethtooth speaker",
@@ -200,14 +200,14 @@ function getProductDetailsById(id) {
         },
 "6": {
             "id": "6",
-            "name": "X-Health",
+            "name": "X-SmartHealth",
             "preview": "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
             "photos": [
                 "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
                 "https://m.media-amazon.com/images/I/71GD8iJkxdL.SX679.jpg",
                 "https://m.media-amazon.com/images/I/61OlNNLretL.SX679.jpg"
             ],
-            "description": "Introducing the 'GenX ConnectLTE' smartwatch - your ultimate companion for seamless connectivity, advanced tracking, and unparalleled convenience on the go",
+            "description": "Your personal health companion, monitoring vital signs and activity seamlessly",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Health care Smartwatch",
@@ -215,14 +215,14 @@ function getProductDetailsById(id) {
         },
 "7": {
             "id": "7",
-            "name": "X-360 SoundSphere",
+            "name": "X-Travelfold",
             "preview": "https://m.media-amazon.com/images/I/61yOkOzxZ0L._AC_SL1500_.jpg",
             "photos": [
                 "https://m.media-amazon.com/images/I/61yOkOzxZ0L._AC_SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/61ifpG78ZiL._AC_SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/61T60tQCr4L._AC_SL1500_.jpg"
             ],
-            "description": "Introducing the 'GenX360 SoundSphere' : Immerse yourself in unparalleled audio bliss with our cutting-edge speaker, delivering immersive 360-degree surround sound for an unforgettable listening experience.",
+            "description": " Compact and versatile, delivering immersive sound wherever you go.",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Foldable Travel Headset",
@@ -230,14 +230,14 @@ function getProductDetailsById(id) {
         },
         "8": {
             "id": "8",
-            "name": "SonicWave Over-Ear Headphones",
+            "name": "GenX's Bass-Enhanced Headphones",
             "preview": "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-black-front-view.png?v=1698221486&width=990",
             "photos": [
                 "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-black-front-view.png?v=1698221486&width=990",
                 "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-obsidian-black-hero-view.png?v=1698221486&width=990",
                 "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-obsidian-black-mode-view.png?v=1698221486&width=990"
             ],
-            "description": "Immerse yourself in premium sound quality with the SonicWave Over-Ear Headphones by GenX.",
+            "description": " Immerse yourself in deep, rich audio with powerful low-end frequencies",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Bass Enhanced Earphones",
@@ -245,7 +245,7 @@ function getProductDetailsById(id) {
         },
          "9": {
             "id": "9",
-            "name": "F-Powerbank",
+            "name": "GenX TurboCharge Powerbank",
             "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
             "photos": [
                 "https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
@@ -253,7 +253,7 @@ function getProductDetailsById(id) {
                 "https://m.media-amazon.com/images/I/61-WO962L0L.SX679.jpg",
                 "https://m.media-amazon.com/images/I/71Kf-XVZF7L.AC_SL1500.jpg"
             ],
-            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "description": "Fuel your devices at lightning speed, keeping you powered up on the fly",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Fast Charging Powerbank",
@@ -278,7 +278,7 @@ function getProductDetailsById(id) {
 
         "11": {
             "id": "11",
-            "name": "F-Powerbank",
+            "name": "GenX ThunderBolt Cable",
             "preview": "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
             "photos": [
                 "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
@@ -287,7 +287,7 @@ function getProductDetailsById(id) {
                 "https://m.media-amazon.com/images/I/71mHx5ivnKL._SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/616zYJUQVTL._SL1500_.jpg"
             ],
-            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "description": "Lightning-fast charging and data transfer for all your devices",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Lightning Cable",
@@ -303,7 +303,7 @@ function getProductDetailsById(id) {
                 "https://m.media-amazon.com/images/I/71hCJP5QewL._AC_SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/815ryMmqeBL._AC_SL1500_.jpg",
             ],
-            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "description": "Experience the warmth of sound and style with water speaker",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Waterproof Speaker",
@@ -311,7 +311,7 @@ function getProductDetailsById(id) {
         },
 "13": {
             "id": "13",
-            "name": "F- slim Powerbank",
+            "name": "X SlimCharge",
             "preview": "https://m.media-amazon.com/images/I/61vfkQDpRiL._AC_SL1500_.jpg",
             "photos": [
                 "https://m.media-amazon.com/images/I/61vfkQDpRiL._AC_SL1500_.jpg",
@@ -319,7 +319,7 @@ function getProductDetailsById(id) {
                 "https://m.media-amazon.com/images/I/81roj19LbdL._AC_SL1500_.jpg",
         
             ],
-            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "description": "Power on the go with sleek, ultra-slim design for effortless portability",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Slim Powerbank",
@@ -328,7 +328,7 @@ function getProductDetailsById(id) {
 
         "14": {
             "id": "14",
-            "name":" diving watch",
+            "name":"  GenX AquaPro DiveMaste",
             "preview": "https://m.media-amazon.com/images/I/71eFD3KyuXL._AC_SL1500_.jpg",
             "photos": [
                 "https://m.media-amazon.com/images/I/71eFD3KyuXL._AC_SL1500_.jpg",
@@ -336,7 +336,7 @@ function getProductDetailsById(id) {
                 "https://m.media-amazon.com/images/I/71H5i-wxXzL._AC_SL1500_.jpg",
         
             ],
-            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "description": "Dive deeper with confidence, equipped with advanced underwater tracking and safety features",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Diving SmartWatch",
@@ -345,15 +345,15 @@ function getProductDetailsById(id) {
 
         "15": {
             "id": "15",
-            "name":" Wooden Speaker",
+            "name":" Gen-X RetroHit Speaker",
             "preview": "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
             "photos": [
                 "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
                 "https://m.media-amazon.com/images/I/91An8O3810L._AC_SL1500_.jpg",
-                "https://m.media-amazon.com/images/I/81n+9rRBFvL._AC_SL1500_.jpg"
+                "https://m.media-amazon.com/images/I/81n+9rRBFvL._AC_SL1500_.jpg,
         
             ],
-            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "description": "Blast the past with vintage style and modern sound quality for a nostalgic audio experience GenX's WoodBeats Speaker, featuring a luxurious wooden finish",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
             "brand": "Gen-X | Wooden Speaker",
