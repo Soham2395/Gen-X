@@ -330,6 +330,6 @@ containerClothing.appendChild(dynamicClothingSection(productDescription11));
 containerClothing.appendChild(dynamicClothingSection(productDescription12));
 
 let containerAccessories = document.getElementById("containerAccessories");
-containerAccessories.appendChild(dynamicClothingSection(productDescription4));
-containerAccessories.appendChild(dynamicClothingSection(productDescription5));
-containerAccessories.appendChild(dynamicClothingSection(productDescription6));
+containerAccessories.appendChild(dynamicClothingSection(productDescription10));
+containerAccessories.appendChild(dynamicClothingSection(productDescription11));
+containerAccessories.appendChild(dynamicClothingSection(productDescription12));
