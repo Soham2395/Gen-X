@@ -129,67 +129,78 @@ function dynamicContentDetails(ob) {
 function getProductDetailsById(id) {
     // Simulated product data without using an API
     const products = {
-        "1": {
+       "1": {
             "id": "1",
-            "name": "GenX TimeMaster Classic",
-            "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
-            "photos": ["https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg", "https://m.media-amazon.com/images/I/610rvcXNg3L.SX679.jpg", "https://m.media-amazon.com/images/I/61yjr+vhbaL.SX679.jpg", "https://m.media-amazon.com/images/I/61mkpp+F95L.SX679.jpg"],
+            "name": "X-Play wear",
+            "preview": "https://m.media-amazon.com/images/I/71-D0k+XUsL._SL1500_.jpg",
+            "photos": ["https://m.media-amazon.com/images/I/71-D0k+XUsL._SL1500_.jpg", "https://m.media-amazon.com/images/I/71Qhb5KGtEL._SL1500_.jpg", "https://m.media-amazon.com/images/I/71PtFgU9zwL._SL1500_.jpg", "https://m.media-amazon.com/images/I/71rAEvNBX3L._SL1500_.jpg","https://m.media-amazon.com/images/I/6118xBVFzcL._SL1500_.jpg"],
             "description": "Experience timeless elegance and cutting-edge technology with the Gen-X TimeMaster Classic - your stylish companion for staying connected and enhancing your lifestyle",
             "size": [1, 1, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Gen-X",
+            "brand": "Gen-X | Gaming Headset",
             "price":819 
         },
         "2": {
             "id": "2",
             "name": "Q-Powerbank",
-            "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
+            "preview": "https://m.media-amazon.com/images/I/515Y+-BrJJL._AC_SL1500_.jpg",
             "photos": [
-                "https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
-                "https://m.media-amazon.com/images/I/71hkAmh-QHL.AC_SL1500.jpg",
-                "https://m.media-amazon.com/images/I/61-WO962L0L.SX679.jpg",
-                "https://m.media-amazon.com/images/I/71Kf-XVZF7L.AC_SL1500.jpg"
+                "https://m.media-amazon.com/images/I/515Y+-BrJJL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/61VlteeUUYL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/61Be6tnweTL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/61CnGCR3WWL._AC_SL1500_.jpg"
             ],
             "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Gen-X",
+            "brand": "Gen-X | wireless PowerBank",
             "price": 683
         },
         "3": {
             "id": "3",
-            "name": "Gen-X SwiftSync Earbuds",
-            "preview": "https://m.media-amazon.com/images/I/51dfG2mEEbL.AC_SL1500.jpg",
-            "photos": [
-                "https://m.media-amazon.com/images/I/51dfG2mEEbL.AC_SL1500.jpg",
-                "https://m.media-amazon.com/images/I/51tYwWn3wSL.AC_SL1500.jpg",
-                "https://m.media-amazon.com/images/I/41CijCww8KL.AC_SL1500.jpg",
-                "https://m.media-amazon.com/images/I/51SjEQ8wj4L.AC_SL1500.jpg"
-            ],
-            "description": "Experience ultra-low latency audio with seamless connectivity for the next generation",
-            "size": [0, 0, 0, 1, 0],
+            "name": "GenX Sports-SG",
+            "preview": "https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg",
+            "photos": ["https://m.media-amazon.com/images/I/61ftRB6KycL.SX679.jpg", "https://m.media-amazon.com/images/I/610rvcXNg3L.SX679.jpg", "https://m.media-amazon.com/images/I/61yjr+vhbaL.SX679.jpg", "https://m.media-amazon.com/images/I/61mkpp+F95L.SX679.jpg"],
+            "description": "Experience timeless elegance and cutting-edge technology with the Gen-X TimeMaster Classic - your stylish companion for staying connected and enhancing your lifestyle",
+            "size": [1, 1, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Gen-X",
-            "price": 1045
+            "brand": "Gen-X | Sports Watch",
+            "price":819 
         },
 "4": {
             "id": "4",
-            "name": "GenVoice Home Hub",
-            "preview": "https://m.media-amazon.com/images/I/81lGxS2ZisL.SX569.jpg",
+            "name": "Gen-Multi Hub",
+            "preview": "https://m.media-amazon.com/images/I/61wCSfVLG9L._AC_SL1500_.jpg",
             "photos": [
-                "https://m.media-amazon.com/images/I/81lGxS2ZisL.SX569.jpg",
-                "https://m.media-amazon.com/images/I/61lPcAKY+vL.SX569.jpg",
-                "https://m.media-amazon.com/images/I/71AbQ3Hf75L.SX569.jpg"
+                "https://m.media-amazon.com/images/I/61wCSfVLG9L._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71dcumKkzfL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71BQb61GmNL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/710aRgLcPML._AC_SL1500_.jpg"
             ],
             "description": "Elevate your home with effortless voice-controlled intelligence",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Gen-X",
+            "brand": "Gen-X | Multiport Powerbank",
             "price": 2586
         },
         "5": {
             "id": "5",
-            "name": "X-ConnectLTE",
+            "name": "X-BlueConnect",
+            "preview": "https://m.media-amazon.com/images/I/8100GPA0v0L._AC_SL1500_.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/8100GPA0v0L._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71V8YBjvqaL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71pipdbYJyL._AC_SL1500_.jpg"
+            ],
+            "description": "Introducing the 'GenX ConnectLTE' smartwatch - your ultimate companion for seamless connectivity, advanced tracking, and unparalleled convenience on the go",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X | portable bluethtooth speaker",
+            "price": 864
+        },
+"6": {
+            "id": "6",
+            "name": "X-Health",
             "preview": "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
             "photos": [
                 "https://m.media-amazon.com/images/I/61nBzBREzGL.SX679.jpg",
@@ -199,11 +210,26 @@ function getProductDetailsById(id) {
             "description": "Introducing the 'GenX ConnectLTE' smartwatch - your ultimate companion for seamless connectivity, advanced tracking, and unparalleled convenience on the go",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Gen-X",
+            "brand": "Gen-X | Health care Smartwatch",
             "price": 864
         },
-"6": {
-            "id": "6",
+"7": {
+            "id": "7",
+            "name": "X-360 SoundSphere",
+            "preview": "https://m.media-amazon.com/images/I/61yOkOzxZ0L._AC_SL1500_.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/61yOkOzxZ0L._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/61ifpG78ZiL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/61T60tQCr4L._AC_SL1500_.jpg"
+            ],
+            "description": "Introducing the 'GenX360 SoundSphere' : Immerse yourself in unparalleled audio bliss with our cutting-edge speaker, delivering immersive 360-degree surround sound for an unforgettable listening experience.",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X | Foldable Travel Headset",
+            "price": 3311
+        },
+        "8": {
+            "id": "8",
             "name": "SonicWave Over-Ear Headphones",
             "preview": "https://soniclamb.com/cdn/shop/files/sonic-lamb-over-ear-headhpones-black-front-view.png?v=1698221486&width=990",
             "photos": [
@@ -214,24 +240,80 @@ function getProductDetailsById(id) {
             "description": "Immerse yourself in premium sound quality with the SonicWave Over-Ear Headphones by GenX.",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Gen-X",
+            "brand": "Gen-X | Bass Enhanced Earphones",
             "price": 882
         },
-"7": {
-            "id": "7",
-            "name": "X-360 SoundSphere",
-            "preview": "https://m.media-amazon.com/images/I/610Jx43eHaL.SX679.jpg",
+         "9": {
+            "id": "9",
+            "name": "F-Powerbank",
+            "preview": "https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
             "photos": [
-                "https://m.media-amazon.com/images/I/610Jx43eHaL.SX679.jpg",
-                "https://m.media-amazon.com/images/I/71dunCe1hBL.SX679.jpg",
-                "https://m.media-amazon.com/images/I/81ljEt+Hz2L.SX679.jpg"
+                "https://m.media-amazon.com/images/I/61MaSVeJaYL.AC_SL1500.jpg",
+                "https://m.media-amazon.com/images/I/71hkAmh-QHL.AC_SL1500.jpg",
+                "https://m.media-amazon.com/images/I/61-WO962L0L.SX679.jpg",
+                "https://m.media-amazon.com/images/I/71Kf-XVZF7L.AC_SL1500.jpg"
             ],
-            "description": "Introducing the 'GenX360 SoundSphere' : Immerse yourself in unparalleled audio bliss with our cutting-edge speaker, delivering immersive 360-degree surround sound for an unforgettable listening experience.",
+            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
             "size": [0, 0, 0, 1, 0],
             "isAccessory": false,
-            "brand": "Gen-X",
-            "price": 3311
+            "brand": "Gen-X | Fast Charging Powerbank",
+            "price": 683
         },
+
+        "10": {
+            "id": "10",
+            "name": "F-Powerbank",
+            "preview": "https://m.media-amazon.com/images/I/71zppvL8ulL._SL1399_.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/71zppvL8ulL._SL1399_.jpg",
+                "https://m.media-amazon.com/images/I/71ksxIimk-L._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71NkWUl6P1L._SL1469_.jpg",
+                "https://m.media-amazon.com/images/I/71iaR8da7rL._SL1469_.jpg",
+                "https://m.media-amazon.com/images/I/71k7O6vqkIL._SL1469_.jpg"
+            ],
+            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X | Mutli Port cable",
+            "price": 683
+        },
+
+        "11": {
+            "id": "11",
+            "name": "F-Powerbank",
+            "preview": "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71oRRkpO33L._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71kHKErv04L._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71mHx5ivnKL._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/616zYJUQVTL._SL1500_.jpg"
+            ],
+            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X | Lightning Cable",
+            "price": 683
+        },
+
+        "12": {
+            "id": "12",
+            "name": "F-Powerbank",
+            "preview": "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
+            "photos": [
+                "https://m.media-amazon.com/images/I/61vthFWyMuL._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71oRRkpO33L._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71kHKErv04L._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/71mHx5ivnKL._SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/616zYJUQVTL._SL1500_.jpg"
+            ],
+            "description": "Meet the Q-Powerbank: your on-the-go energy solution, providing rapid charging capabilities to keep you powered up anytime, anywhere",
+            "size": [0, 0, 0, 1, 0],
+            "isAccessory": false,
+            "brand": "Gen-X | Fast Charging Powerbank",
+            "price": 683
+        },
+
         // Add more products as needed
     };
     
