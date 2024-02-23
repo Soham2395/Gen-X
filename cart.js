@@ -189,13 +189,15 @@ const products = [{
     "preview":  "https://m.media-amazon.com/images/I/71eFD3KyuXL._AC_SL1500_.jpg",
     "price": 683
 },
-                  
-];{
+
+{
     "id": "15",
     "name": "Gen-X RetroHit Speaker",
     "preview": "https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
     "price": 3311
 },
+                  
+];
 
 // Initialize totalAmount
 let totalAmount = 0;
