@@ -264,6 +264,30 @@ const productDescription8 = {
         "price": 3311
         
 };
+const productDescription9 = {
+  "id": "10",
+        "name": "X-360 SoundSphere",
+        "preview":"https://m.media-amazon.com/images/I/81zqOR1a01L._AC_SL1500_.jpg",
+        "photos": [
+            "img/logo.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673889-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-2.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673866-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-3.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673837-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-4.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673814-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-5.jpg"
+        ],
+        "description": "GenX Smart Tech brand",
+        "size": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "isAccessory": false,
+        "brand": "Gen-X",
+        "price": 3311
+        
+};
 const productDescription10 = {
   "id": "11",
         "name": "X-360 SoundSphere",
@@ -330,6 +354,6 @@ containerClothing.appendChild(dynamicClothingSection(productDescription11));
 containerClothing.appendChild(dynamicClothingSection(productDescription12));
 
 let containerAccessories = document.getElementById("containerAccessories");
-containerAccessories.appendChild(dynamicClothingSection(productDescription10));
-containerAccessories.appendChild(dynamicClothingSection(productDescription11));
+containerAccessories.appendChild(dynamicClothingSection(productDescription9));
+// containerAccessories.appendChild(dynamicClothingSection(productDescription11));
 // containerAccessories.appendChild(dynamicClothingSection(productDescription12));
