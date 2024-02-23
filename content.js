@@ -337,6 +337,82 @@ const productDescription11 = {
         
 };
 
+const productDescription12 = {
+  "id": "13",
+        "name": "X-360 SoundSphere",
+        "preview":"https://m.media-amazon.com/images/I/61vfkQDpRiL._AC_SL1500_.jpg",
+        "photos": [
+            "img/logo.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673889-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-2.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673866-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-3.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673837-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-4.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673814-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-5.jpg"
+        ],
+        "description": "GenX Smart Tech brand",
+        "size": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "isAccessory": false,
+        "brand": "Gen-X",
+        "price": 3311
+        
+};
+
+const productDescription13 = {
+  "id": "14",
+        "name": "X-360 SoundSphere",
+        "preview":"https://m.media-amazon.com/images/I/71eFD3KyuXL._AC_SL1500_.jpg",
+        "photos": [
+            "img/logo.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673889-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-2.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673866-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-3.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673837-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-4.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673814-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-5.jpg"
+        ],
+        "description": "GenX Smart Tech brand",
+        "size": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "isAccessory": false,
+        "brand": "Gen-X",
+        "price": 3311
+        
+};
+
+const productDescription14 = {
+  "id": "15",
+        "name": "X-360 SoundSphere",
+        "preview":"https://m.media-amazon.com/images/I/815hBQIdBcL._AC_SL1500_.jpg",
+        "photos": [
+            "img/logo.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673889-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-2.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673866-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-3.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673837-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-4.jpg",
+            // "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673814-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-5.jpg"
+        ],
+        "description": "GenX Smart Tech brand",
+        "size": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "isAccessory": false,
+        "brand": "Gen-X",
+        "price": 3311
+        
+};
+
+
 
 // Add the hardcoded product to the containerClothing element
 let containerClothing = document.getElementById("containerClothing");
@@ -352,6 +428,10 @@ containerClothing.appendChild(dynamicClothingSection(productDescription8));
 containerClothing.appendChild(dynamicClothingSection(productDescription9));
 containerClothing.appendChild(dynamicClothingSection(productDescription10));
 containerClothing.appendChild(dynamicClothingSection(productDescription11));
+containerClothing.appendChild(dynamicClothingSection(productDescription12));
+containerClothing.appendChild(dynamicClothingSection(productDescription13));
+containerClothing.appendChild(dynamicClothingSection(productDescription14));
+containerClothing.appendChild(dynamicClothingSection(productDescription15));
 
 let containerAccessories = document.getElementById("containerAccessories");
 containerAccessories.appendChild(dynamicClothingSection(productDescription9));
