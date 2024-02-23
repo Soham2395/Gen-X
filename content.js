@@ -349,9 +349,9 @@ containerClothing.appendChild(dynamicClothingSection(productDescription5));
 containerClothing.appendChild(dynamicClothingSection(productDescription6));
 containerClothing.appendChild(dynamicClothingSection(productDescription7));
 containerClothing.appendChild(dynamicClothingSection(productDescription8));
-// containerClothing.appendChild(dynamicClothingSection(productDescription9));
+containerClothing.appendChild(dynamicClothingSection(productDescription9));
+containerClothing.appendChild(dynamicClothingSection(productDescription10));
 containerClothing.appendChild(dynamicClothingSection(productDescription11));
-containerClothing.appendChild(dynamicClothingSection(productDescription12));
 
 let containerAccessories = document.getElementById("containerAccessories");
 containerAccessories.appendChild(dynamicClothingSection(productDescription9));
